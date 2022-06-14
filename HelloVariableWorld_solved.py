@@ -14,7 +14,7 @@ hourly_wage = int(input("How much do you make per hour?"))
 daily_wage = hourly_wage * 8
 
 # Create a variable called 'satisfied' that holds a boolean
-satisfied = 
+satisfied = bool(input("Were you satisfied?")) 
 
 # Print out "Hello <name>!"
 print("Hello " + name)
@@ -29,8 +29,5 @@ print(age)
 print(f"{name} makes {daily_wage}$ per day.")
 
 # With an f-string, print out whether the users were satisfied
-    if satisfied = True
-    print(f"{name} was satisfied.")
-    else
-    print(f"{name} wasn't satisfied.")
+print(f"The user was satisfied: {satisfied}")
 
